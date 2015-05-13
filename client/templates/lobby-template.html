@@ -1,0 +1,32 @@
+<template name="lobbyTemplate">
+    <form class="new-game">
+        <label>
+            New game
+        </label>
+        <input type="text" name="gameName"/>
+        <button type="submit">create game</button>
+    </form>
+    <ul>
+        {{#each games}}
+        <li>
+            {{> game}}
+        </li>
+        {{/each}}
+    </ul>
+</template>
+
+<template name="game">
+        {{name}} - {{displayName user1.name}}
+        {{#if user2}}
+            vs {{displayName user2.name}}
+            {{#if winner}}
+                - Winner : {{displayName winner}}
+            {{/if}}
+        {{else}} - status : {{state}} {{/if}}
+
+        {{#if openRoom}}
+             {{#if notCreator}}
+                <button type="button" class="btn-join">Join</button>
+             {{/if}}
+        {{/if}}
+</template>

@@ -1,0 +1,41 @@
+<template name="roomTemplate">
+    <h2>
+        {{name}} - {{user1.name}}
+        {{#if pending}}
+            waiting opponent ...
+        {{/if}}
+        {{#if prepare}}
+            opponent has joined, question will start in {{counter}}
+        {{/if}}
+        {{#if user2.name}}
+            vs {{user2.name}}
+        {{/if}}
+
+        <button class="quit">back to lobby</button>
+    </h2>
+
+    {{#if finished}}
+        <h4>WINNER IS {{winner}}</h4>
+        {{#if isWrongAnswer }}
+            the correct answer was : {{answer}}
+        {{/if}}
+    {{/if}}
+
+    {{#if started}}
+        <p>solve the next math challange:</p>
+        <!-- set question as data context -->
+        {{#with question}}
+        <p> {{num1}} + {{num2}} = ? </p>
+        {{/with}}
+        <div>
+            <form class="problem-form">
+                <input type="text" name="userAnswer"/>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+        {{#if result}}
+            <p>your answer is : {{result}}</p>
+
+        {{/if}}
+    {{/if}}
+</template>
