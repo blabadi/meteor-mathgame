@@ -1,0 +1,29 @@
+- [accounts-password](https://atmospherejs.com/meteor/accounts-password): Password support for accounts (done)
+- [accounts-ui](https://atmospherejs.com/meteor/accounts-ui): Simple templates to add login widgets to an app (done)
+- [alanning:roles](https://atmospherejs.com/alanning/roles):  Role-based authorization
+- [aldeed:autoform]((https://github.com/aldeed/meteor-autoform)): Easily create forms with automatic insert and update, and automatic reactive validation.
+- [aldeed:autoform-bs-button-group-input](https://github.com/aldeed/meteor-autoform-bs-button-group-input): Use a Bootstrap 3 button group to display select-checkbox and select-radio elements in Autoform
+- [aldeed:collection2](https://github.com/aldeed/meteor-collection2): Automatic validation of insert and update operations on the client and server.
+- [aldeed:simple-schema](https://github.com/aldeed/meteor-simple-schema): for schema validation. It integrates nicely with Collection2 to ensure data is validated before writing to the DB.
+- [aldeed:tabular](https://github.com/aldeed/meteor-tabular): Reactive table that integrates with DataTables jQuery plugin. Provides filtering, sorting, pagination.
+- [alethes:pages](https://github.com/alethes/meteor-pages): Pagination library that fits nicely with Bootstrap.
+- [benjaminrh:user-session](https://atmospherejs.com/benjaminrh/user-session): Provides a UserSession object that works just like Session does, except it's persistent so you can preserve state across devices and sessions. It also provides a few extra useful methods.
+- [dburles:collection-helpers](https://github.com/dburles/meteor-collection-helpers): Transform your collections with helpers that you define
+- [edgee:slingshot](https://atmospherejs.com/edgee/slingshot): Directly post files to cloud storage services, such as AWS-S3.
+- [email](https://atmospherejs.com/meteor/email): Send email messages
+- [houston:admin](https://github.com/gterrono/houston): A zero-config Meteor Admin
+- [infinitedg:winston](https://atmospherejs.com/infinitedg/winston): A multi-transport async logging library for node.js. "CHILL WINSTON! ... I put it in the logs."
+- [iron:router](https://github.com/EventedMind/iron-router): Routing specifically designed for Meteor
+- [lepozepo:s3](https://atmospherejs.com/lepozepo/s3): S3 library
+- [meteor-platform](https://atmospherejs.com/meteor/meteor-platform): Include a standard set of Meteor packages in your app
+- [mquandalle:stylus](https://atmospherejs.com/mquandalle/stylus): Expressive, dynamic, robust CSS
+- [mrt:just-i18n](https://atmospherejs.com/mrt/just-i18n): Internalization: minimal and best package
+- [mrt:moment](https://atmospherejs.com/mrt/moment): Moment.js, a JavaScript date library for dates, packaged for Meteor. See http://momentjs.com.
+- [mrt:moment-timezone](https://atmospherejs.com/mrt/moment-timezone): Timezone support for moment.js, packaged for Meteor. See [http://momentjs.com/timezone](http://momentjs.com/timezone).
+- [mrt:node-apn](https://github.com/argon/node-apn): Wrapper for node-apn
+- [mrt:underscore-string-latest](https://atmospherejs.com/mrt/underscore-string-latest): underscore.string repackaged for Meteor
+- [percolatestudio:percolatestudio-migrations](https://github.com/percolatestudio/meteor-migrations): Allows you to define and run db migrations.
+- [reactive-dict]: Reactive dictionary.
+- [reywood:publish-composite](https://github.com/englue/meteor-publish-composite): Publish a set of related documents from multiple collections with a reactive join
+- [tarang:gcm](https://github.com/ToothlessGear/node-gcm): Wrapper for node-gcm
+- [timmyg13:mandrill](https://atmospherejs.com/timmyg13/mandrill): send email via Mandrill

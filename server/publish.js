@@ -99,4 +99,6 @@ Meteor.startup(function(){
             Problems.insert(prob);
         });
     }
+
+
 });

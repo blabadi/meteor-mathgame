@@ -1,8 +1,17 @@
 <template name="appBody">
-
     <h1>
-        Math Problems - with Friends! - {{> loginButtons}}
+        Math Problems - with Friends!
     </h1>
+    {{#if currentUser}}
+        {{currentUser.username}} - <a href="#" class="logout">log out</a>
+    {{else}}
+        <div>
+            {{> login}}
+        </div>
+        <div>
+            {{> register}}
+        </div>
+    {{/if}}
     <div class="container">
         {{> yield}}
     </div>

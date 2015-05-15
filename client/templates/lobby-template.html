@@ -1,11 +1,13 @@
 <template name="lobbyTemplate">
-    <form class="new-game">
-        <label>
-            New game
-        </label>
-        <input type="text" name="gameName"/>
-        <button type="submit">create game</button>
-    </form>
+    {{#if isInRole 'player'}}
+        <form class="new-game">
+            <label>
+                New game
+            </label>
+            <input type="text" name="gameName"/>
+            <button type="submit">create game</button>
+        </form>
+    {{/if}}
     <ul>
         {{#each games}}
         <li>
